@@ -17,7 +17,10 @@
         <skipITs>true</skipITs>
         <surefire-plugin.version>3.2.5</surefire-plugin.version>
     </properties>
-
+    <dependency>
+        <groupId>io.quarkus</groupId>
+        <artifactId>quarkus-smallrye-metrics</artifactId>
+    </dependency>
     <dependencyManagement>
         <dependencies>
             <dependency>
