@@ -136,6 +136,10 @@
                 <skipITs>false</skipITs>
                 <quarkus.native.enabled>true</quarkus.native.enabled>
             </properties>
+            <properties>
+                <sonar.organization>joaohanzeldemetrio</sonar.organization>
+                <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+            </properties>
         </profile>
     </profiles>
 </project>
